@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/zxerpszw/public_html/manga.newwaymm.com
+    - /bin/cp -R $DEPLOYPATH
